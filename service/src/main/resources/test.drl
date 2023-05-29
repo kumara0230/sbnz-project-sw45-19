@@ -1,0 +1,141 @@
+package KieRule;
+import com.ftn.sbnz.model.Hero;
+import com.ftn.sbnz.service.BooleanWrapper;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Set;
+import java.util.HashSet;
+
+global List<Hero> allHeroes;
+global List<Hero> recommendedHeroes;
+global List<String> pickedHeroes;
+global List<Hero> oppositeTeam;
+global List<Hero> myTeam;
+global List<String> counterPicks;
+global List<String> combos;
+global BooleanWrapper flag;
+
+
+rule "Check if role is missing and suggest it if so"
+when
+    $myTeam: List()
+    $roles: Set() from accumulate(Hero($role: role) from $myTeam, collectSet($role))
+    $missingRole: String() from ["JUNGLER", "MID", "CARRY", "TANK", "SUPPORT"] 
+    not Hero(role == $missingRole) from $myTeam
+
+then
+    boolean added = false;
+    for (Hero hero : allHeroes) {
+        if (hero.getRole().equals($missingRole) && !pickedHeroes.contains(hero.getID()) && !recommendedHeroes.contains(hero)) {
+            recommendedHeroes.add(hero);
+            added = true;
+        }
+    }
+
+    System.out.println("Recommended picks: ");
+    for (Hero hero : recommendedHeroes) {
+        System.out.println("Hero ID: " + hero.getID() + ",\nHero name: " + hero.getName() + ",\nHero role: " + hero.getRole() + "\nGood against:");
+        for (String s : hero.getGoodAgainst()) {
+            System.out.println("\t" + s);
+        }
+        System.out.println("Bad against:");
+        for (String s : hero.getBadAgainst()) {
+            System.out.println("\t" + s);
+        }
+        System.out.println("");
+    }
+
+    if (added) {
+        flag.setValue(true);
+        System.out.println("These picks were recommended because your team does not have the role: " + $missingRole);
+    }
+end;
+
+
+rule "Cut some heroes from recommended list with counter picks"
+when
+    eval(!counterPicks.isEmpty() && flag.getValue())
+then
+    List<Hero> newList = new ArrayList<>();
+    for (Hero hero : recommendedHeroes) {
+        if (counterPicks.contains(hero.getID())) {
+            newList.add(hero);
+        }
+    }
+    if (!newList.isEmpty()) {
+        System.out.println("\nBest picks list:");
+        for (Hero hero : newList) {
+        	System.out.println("Hero ID: " + hero.getID() + ",\nHero name: " + hero.getName() + ",\nHero role: " + hero.getRole() + "\nGood against:");
+    		for (String s : hero.getGoodAgainst()) {
+    			System.out.println("\t"+ s);
+    		}
+    		System.out.println("Bad against:");
+    		for (String s : hero.getBadAgainst()) {
+    			System.out.println("\t" + s);
+    		}
+    		System.out.println("");
+        }
+        System.out.println("These picks were recommended because you can counter enemy hero by picking one of these, which is much better than any other picks");
+    	System.out.println("\nOld picks list: ");
+	    for (Hero hero : recommendedHeroes) {
+	            System.out.println("Hero ID: " + hero.getID() + ",\nHero name: " + hero.getName() + ",\nHero role: " + hero.getRole() + "\nGood against:");
+	    		for (String s : hero.getGoodAgainst()) {
+	    			System.out.println("\t"+ s);
+	    		}
+	    		System.out.println("Bad against:");
+	    		for (String s : hero.getBadAgainst()) {
+	    			System.out.println("\t" + s);
+	    		}
+	    		System.out.println("");
+	    }
+    }
+end;
+
+rule "Suggest the most if combo pick is available"
+when
+    eval(!combos.isEmpty() && flag.getValue())
+then
+    List<Hero> newList = new ArrayList<>();
+    for (Hero hero : recommendedHeroes) {
+        if (combos.contains(hero.getID())) {
+            newList.add(hero);
+        }
+    }
+    if (!newList.isEmpty()) {
+        System.out.println("\nBest picks list:");
+        for (Hero hero : newList) {
+            System.out.println("Hero ID: " + hero.getID() + ",\nHero name: " + hero.getName() + ",\nHero role: " + hero.getRole() + "\nGood against:");
+            for (String s : hero.getGoodAgainst()) {
+                System.out.println("\t" + s);
+            }
+            System.out.println("Bad against:");
+            for (String s : hero.getBadAgainst()) {
+                System.out.println("\t" + s);
+            }
+            System.out.println("Combo with:");
+            for (String s : hero.getCombo()) {
+                System.out.println("\t" + s);
+            }
+            System.out.println("");
+        }
+        System.out.println("These picks were recommended because you can create a combo by picking one of these, which is much better than any other picks");
+        System.out.println("\nOld picks list: ");
+        for (Hero hero : recommendedHeroes) {
+            System.out.println("Hero ID: " + hero.getID() + ",\nHero name: " + hero.getName() + ",\nHero role: " + hero.getRole() + "\nGood against:");
+            for (String s : hero.getGoodAgainst()) {
+                System.out.println("\t" + s);
+            }
+            System.out.println("Bad against:");
+            for (String s : hero.getBadAgainst()) {
+                System.out.println("\t" + s);
+            }
+            System.out.println("Combo with:");
+            for (String s : hero.getCombo()) {
+                System.out.println("\t" + s);
+            }
+            System.out.println("");
+        }
+    }
+end;
+
+	
