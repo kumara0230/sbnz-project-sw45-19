@@ -1,0 +1,2765 @@
+{
+    "heroes": [
+        {
+            "name": "antimage",
+            "role": "CARRY",
+            "good_against": [
+                "Ancient Apparition",
+                "Arc Warden",
+                "Bristleback",
+                "Chaos Knight",
+                "Clockwerk",
+                "Dark Seer",
+                "Death Prophet",
+                "Enigma",
+                "Gyrocopter",
+                "Invoker",
+                "Jakiro",
+                "Leshrac",
+                "Lich",
+                "Lina",
+                "Medusa",
+                "Morphling",
+                "Pudge",
+                "Queen of Pain",
+                "Wraith King",
+                "Razor",
+                "Skywrath Mage",
+                "Spectre",
+                "Storm Spirit",
+                "Techies",
+                "Tidehunter",
+                "Tinker",
+                "Tusk",
+                "Ursa",
+                "Vengeful Spirit",
+                "Venomancer",
+                "Warlock",
+                "Zeus"
+            ],
+            "bad_against": [
+                "Axe",
+                "Bane",
+                "Terrorblade",
+                "Disruptor"
+            ],
+            "combo": [
+                "Lion"
+            ],
+            "meta": 83,
+            "player_skills": 90,
+            "rank_play": "HIGH",
+            "id": 1,
+            "localized_name": "Anti-Mage"
+        },
+        {
+            "name": "axe",
+            "role": "TANK",
+            "good_against": [
+                "Abaddon",
+                "Anti-Mage",
+                "Arc Warden",
+                "Broodmother",
+                "Chaos Knight",
+                "Dazzle",
+                "Huskar",
+                "Juggernaut",
+                "Lycan",
+                "Meepo",
+                "Naga Siren",
+                "Phantom Assassin",
+                "Phantom Lancer",
+                "Queen of Pain",
+                "Riki",
+                "Shadow Fiend",
+                "Slark",
+                "Sniper",
+                "Terrorblade",
+                "Troll Warlord",
+                "Visage",
+                "Weaver",
+                "Windranger"
+            ],
+            "bad_against": [
+                "Doom",
+                "Jakiro",
+                "Lifestealer",
+                "Necrophos"
+            ],
+            "combo": [
+                "Keeper of the Light",
+                "Medusa",
+                "Queen of Pain"
+            ],
+            "meta": 94,
+            "player_skills": 73,
+            "rank_play": "HIGH",
+            "id": 2,
+            "localized_name": "Axe"
+        },
+        {
+            "name": "bane",
+            "role": "SUPPORT",
+            "good_against": [
+                "Anti-Mage",
+                "Brewmaster",
+                "Juggernaut",
+                "Legion Commander",
+                "Lifestealer",
+                "Medusa",
+                "Phantom Assassin",
+                "Shadow Fiend",
+                "Timbersaw",
+                "Troll Warlord",
+                "Ursa"
+            ],
+            "bad_against": [
+                "Abaddon",
+                "Pudge",
+                "Luna",
+                "Rubick"
+            ],
+            "combo": [
+                "Razor",
+                "Mirana",
+                "Shadow Fiend"
+            ],
+            "meta": 28,
+            "player_skills": 10,
+            "rank_play": "HIGH",
+            "id": 3,
+            "localized_name": "Bane"
+        },
+        {
+            "name": "bloodseeker",
+            "role": "CARRY",
+            "good_against": [
+                "Bounty Hunter",
+                "Clinkz",
+                "Dark Seer",
+                "Enigma",
+                "Io",
+                "Lich",
+                "Lycan",
+                "Magnus",
+                "Mirana",
+                "Nyx Assassin",
+                "Queen of Pain",
+                "Slark",
+                "Sniper",
+                "Storm Spirit",
+                "Warlock",
+                "Weaver",
+                "Windranger"
+            ],
+            "bad_against": [
+                "Abaddon",
+                "Dazzle",
+                "Ember Spirit",
+                "Faceless Void"
+            ],
+            "combo": [
+                "Zeus",
+                "Invoker",
+                "Wraith King",
+                "Sniper",
+                "Tiny",
+                "Windranger"
+            ],
+            "meta": 81,
+            "player_skills": 72,
+            "rank_play": "LOW",
+            "id": 4,
+            "localized_name": "Bloodseeker"
+        },
+        {
+            "name": "crystal_maiden",
+            "role": "SUPPORT",
+            "good_against": [
+                "Beastmaster",
+                "Chen",
+                "Enchantress"
+            ],
+            "bad_against": [
+                "Bounty Hunter",
+                "Bristleback",
+                "Clockwerk",
+                "Doom"
+            ],
+            "combo": [
+                "Juggernaut",
+                "Doom",
+                "Lycan",
+                "Sand King",
+                "Weaver"
+            ],
+            "meta": 104,
+            "player_skills": 85,
+            "rank_play": "LOW",
+            "id": 5,
+            "localized_name": "Crystal Maiden"
+        },
+        {
+            "name": "drow_ranger",
+            "role": "CARRY",
+            "good_against": [
+                "Doom",
+                "Dragon Knight",
+                "Terrorblade",
+                "Weaver"
+            ],
+            "bad_against": [
+                "Faceless Void",
+                "Tinker",
+                "Arc Warden",
+                "Tusk"
+            ],
+            "combo": [
+                "Vengeful Spirit",
+                "Morphling"
+            ],
+            "meta": 46,
+            "player_skills": 38,
+            "rank_play": "HIGH",
+            "id": 6,
+            "localized_name": "Drow Ranger"
+        },
+        {
+            "name": "earthshaker",
+            "role": "TANK",
+            "good_against": [
+                "Beastmaster",
+                "Chen",
+                "Meepo",
+                "Naga Siren",
+                "Phantom Lancer",
+                "Tusk",
+                "Undying"
+            ],
+            "bad_against": [
+                "Clockwerk",
+                "Death Prophet",
+                "Disruptor",
+                "Earth Spirit"
+            ],
+            "combo": [
+                "Dark Seer"
+            ],
+            "meta": 63,
+            "player_skills": 97,
+            "rank_play": "LOW",
+            "id": 7,
+            "localized_name": "Earthshaker"
+        },
+        {
+            "name": "juggernaut",
+            "role": "CARRY",
+            "good_against": [
+                "Disruptor",
+                "Luna",
+                "Wraith King",
+                "Spectre",
+                "Tiny",
+                "Zeus"
+            ],
+            "bad_against": [
+                "Axe",
+                "Bane",
+                "Chaos Knight",
+                "Enigma"
+            ],
+            "combo": [
+                "Crystal Maiden",
+                "Shadow Shaman",
+                "Venomancer"
+            ],
+            "meta": 82,
+            "player_skills": 25,
+            "rank_play": "HIGH",
+            "id": 8,
+            "localized_name": "Juggernaut"
+        },
+        {
+            "name": "mirana",
+            "role": "MID",
+            "good_against": [
+                "Kunkka",
+                "Shadow Shaman"
+            ],
+            "bad_against": [
+                "Abaddon",
+                "Arc Warden",
+                "Bloodseeker",
+                "Lina"
+            ],
+            "combo": [
+                "Bane"
+            ],
+            "meta": 89,
+            "player_skills": 69,
+            "rank_play": "HIGH",
+            "id": 9,
+            "localized_name": "Mirana"
+        },
+        {
+            "name": "shadow_fiend",
+            "role": "MID",
+            "good_against": [
+                "Ember Spirit"
+            ],
+            "bad_against": [
+                "Axe",
+                "Razor",
+                "Bane",
+                "Bounty Hunter"
+            ],
+            "combo": [
+                "Bane"
+            ],
+            "meta": 73,
+            "player_skills": 73,
+            "rank_play": "HIGH",
+            "id": 11,
+            "localized_name": "Shadow Fiend"
+        },
+        {
+            "name": "morphling",
+            "role": "CARRY",
+            "good_against": [
+                "Shadow Shaman",
+                "Viper"
+            ],
+            "bad_against": [
+                "Ancient Apparition",
+                "Anti-Mage",
+                "Arc Warden",
+                "Chaos Knight"
+            ],
+            "combo": [
+                "Drow Ranger"
+            ],
+            "meta": 45,
+            "player_skills": 70,
+            "rank_play": "HIGH",
+            "id": 10,
+            "localized_name": "Morphling"
+        },
+        {
+            "name": "phantom_lancer",
+            "role": "CARRY",
+            "good_against": [
+                "Night Stalker",
+                "Pugna",
+                "Slardar",
+                "Treant Protector",
+                "Vengeful Spirit"
+            ],
+            "bad_against": [
+                "Axe",
+                "Batrider",
+                "Bristleback",
+                "Centaur Warrunner",
+                "Earthshaker"
+            ],
+            "combo": [
+                "Dazzle"
+            ],
+            "meta": 95,
+            "player_skills": 86,
+            "rank_play": "HIGH",
+            "id": 12,
+            "localized_name": "Phantom Lancer"
+        },
+        {
+            "name": "puck",
+            "role": "MID",
+            "good_against": [
+                "Lion"
+            ],
+            "bad_against": [
+                "Arc Warden",
+                "Faceless Void",
+                "Jakiro",
+                "Lycan"
+            ],
+            "combo": [],
+            "meta": 60,
+            "player_skills": 72,
+            "rank_play": "HIGH",
+            "id": 13,
+            "localized_name": "Puck"
+        },
+        {
+            "name": "pudge",
+            "role": "MID",
+            "good_against": [
+                "Bane",
+                "Zeus"
+            ],
+            "bad_against": [
+                "Abaddon",
+                "Anti-Mage",
+                "Bristleback",
+                "Bounty Hunter"
+            ],
+            "combo": [
+                "Techies"
+            ],
+            "meta": 111,
+            "player_skills": 18,
+            "rank_play": "LOW",
+            "id": 14,
+            "localized_name": "Pudge"
+        },
+        {
+            "name": "razor",
+            "role": "TANK",
+            "good_against": [
+                "Enchantress",
+                "Shadow Fiend",
+                "Sven",
+                "Tidehunter",
+                "Underlord"
+            ],
+            "bad_against": [
+                "Anti-Mage",
+                "Chaos Knight",
+                "Centaur Warrunner",
+                "Earth Spirit"
+            ],
+            "combo": [
+                "Bane",
+                "Death Prophet"
+            ],
+            "meta": 1,
+            "player_skills": 55,
+            "rank_play": "LOW",
+            "id": 15,
+            "localized_name": "Razor"
+        },
+        {
+            "name": "sand_king",
+            "role": "TANK",
+            "good_against": [],
+            "bad_against": [
+                "Earth Spirit",
+                "Phoenix",
+                "Rubick",
+                "Silencer"
+            ],
+            "combo": [
+                "Crystal Maiden"
+            ],
+            "meta": 37,
+            "player_skills": 88,
+            "rank_play": "HIGH",
+            "id": 16,
+            "localized_name": "Sand King"
+        },
+        {
+            "name": "storm_spirit",
+            "role": "MID",
+            "good_against": [
+                "Ember Spirit"
+            ],
+            "bad_against": [
+                "Anti-Mage",
+                "Doom",
+                "Bloodseeker",
+                "Night Stalker"
+            ],
+            "combo": [
+                "Keeper of the Light"
+            ],
+            "meta": 84,
+            "player_skills": 44,
+            "rank_play": "HIGH",
+            "id": 17,
+            "localized_name": "Storm Spirit"
+        },
+        {
+            "name": "sven",
+            "role": "CARRY",
+            "good_against": [],
+            "bad_against": [
+                "Clockwerk",
+                "Lifestealer",
+                "Pugna",
+                "Razor"
+            ],
+            "combo": [
+                "Io"
+            ],
+            "meta": 66,
+            "player_skills": 30,
+            "rank_play": "LOW",
+            "id": 18,
+            "localized_name": "Sven"
+        },
+        {
+            "name": "tiny",
+            "role": "MID",
+            "good_against": [],
+            "bad_against": [
+                "Bristleback",
+                "Juggernaut",
+                "Lifestealer",
+                "Lion"
+            ],
+            "combo": [
+                "Clockwerk",
+                "Nature's Prophet",
+                "Bloodseeker"
+            ],
+            "meta": 56,
+            "player_skills": 40,
+            "rank_play": "LOW",
+            "id": 19,
+            "localized_name": "Tiny"
+        },
+        {
+            "name": "vengeful_spirit",
+            "role": "SUPPORT",
+            "good_against": [],
+            "bad_against": [
+                "Anti-Mage",
+                "Lina",
+                "Nyx Assassin",
+                "Phantom Lancer"
+            ],
+            "combo": [
+                "Chen",
+                "Drow Ranger",
+                "Bounty Hunter"
+            ],
+            "meta": 38,
+            "player_skills": 44,
+            "rank_play": "HIGH",
+            "id": 20,
+            "localized_name": "Vengeful Spirit"
+        },
+        {
+            "name": "windranger",
+            "role": "CARRY",
+            "good_against": [
+                "Templar Assassin"
+            ],
+            "bad_against": [
+                "Axe",
+                "Bloodseeker",
+                "Centaur Warrunner",
+                "Nyx Assassin"
+            ],
+            "combo": [
+                "Bloodseeker"
+            ],
+            "meta": 109,
+            "player_skills": 41,
+            "rank_play": "LOW",
+            "id": 21,
+            "localized_name": "Windranger"
+        },
+        {
+            "name": "zeus",
+            "role": "MID",
+            "good_against": [],
+            "bad_against": [
+                "Anti-Mage",
+                "Faceless Void",
+                "Chaos Knight",
+                "Juggernaut",
+                "Lifestealer",
+                "Meepo",
+                "Pudge",
+                "Pugna",
+                "Silencer",
+                "Templar Assassin",
+                "Ursa",
+                "Viper"
+            ],
+            "combo": [
+                "Bloodseeker",
+                "Ancient Apparition"
+            ],
+            "meta": 44,
+            "player_skills": 33,
+            "rank_play": "LOW",
+            "id": 22,
+            "localized_name": "Zeus"
+        },
+        {
+            "name": "kunkka",
+            "role": "MID",
+            "good_against": [
+                "Alchemist",
+                "Batrider",
+                "Centaur Warrunner",
+                "Dark Seer",
+                "Disruptor",
+                "Witch Doctor"
+            ],
+            "bad_against": [
+                "Clinkz",
+                "Ursa",
+                "Silencer",
+                "Mirana"
+            ],
+            "combo": [
+                "Dark Seer"
+            ],
+            "meta": 14,
+            "player_skills": 92,
+            "rank_play": "LOW",
+            "id": 23,
+            "localized_name": "Kunkka"
+        },
+        {
+            "name": "lina",
+            "role": "MID",
+            "good_against": [
+                "Abaddon",
+                "Luna",
+                "Mirana",
+                "Shadow Demon",
+                "Vengeful Spirit",
+                "Witch Doctor"
+            ],
+            "bad_against": [
+                "Anti-Mage",
+                "Faceless Void",
+                "Lifestealer",
+                "Nyx Assassin"
+            ],
+            "combo": [
+                "Shadow Demon"
+            ],
+            "meta": 2,
+            "player_skills": 99,
+            "rank_play": "HIGH",
+            "id": 25,
+            "localized_name": "Lina"
+        },
+        {
+            "name": "lich",
+            "role": "SUPPORT",
+            "good_against": [
+                "Dragon Knight",
+                "Elder Titan"
+            ],
+            "bad_against": [
+                "Anti-Mage",
+                "Bloodseeker",
+                "Broodmother",
+                "Huskar"
+            ],
+            "combo": [
+                "Enigma",
+                "Magnus"
+            ],
+            "meta": 90,
+            "player_skills": 25,
+            "rank_play": "HIGH",
+            "id": 31,
+            "localized_name": "Lich"
+        },
+        {
+            "name": "lion",
+            "role": "SUPPORT",
+            "good_against": [
+                "Brewmaster",
+                "Elder Titan",
+                "Ember Spirit",
+                "Naga Siren",
+                "Shadow Demon",
+                "Spectre",
+                "Tiny",
+                "Ursa"
+            ],
+            "bad_against": [
+                "Abaddon",
+                "Lifestealer",
+                "Puck",
+                "Rubick"
+            ],
+            "combo": [
+                "Anti-Mage",
+                "Legion Commander",
+                "Pugna"
+            ],
+            "meta": 52,
+            "player_skills": 8,
+            "rank_play": "LOW",
+            "id": 26,
+            "localized_name": "Lion"
+        },
+        {
+            "name": "shadow_shaman",
+            "role": "SUPPORT",
+            "good_against": [
+                "Troll Warlord"
+            ],
+            "bad_against": [
+                "Dragon Knight",
+                "Mirana",
+                "Morphling",
+                "Meepo"
+            ],
+            "combo": [
+                "Juggernaut"
+            ],
+            "meta": 26,
+            "player_skills": 68,
+            "rank_play": "LOW",
+            "id": 27,
+            "localized_name": "Shadow Shaman"
+        },
+        {
+            "name": "slardar",
+            "role": "TANK",
+            "good_against": [
+                "Treant Protector"
+            ],
+            "bad_against": [
+                "Oracle",
+                "Abaddon",
+                "Phantom Lancer",
+                "Meepo"
+            ],
+            "combo": [
+                "Silencer",
+                "Bounty Hunter",
+                "Templar Assassin",
+                "Visage"
+            ],
+            "meta": 16,
+            "player_skills": 61,
+            "rank_play": "HIGH",
+            "id": 28,
+            "localized_name": "Slardar"
+        },
+        {
+            "name": "tidehunter",
+            "role": "TANK",
+            "good_against": [],
+            "bad_against": [
+                "Anti-Mage",
+                "Nyx Assassin",
+                "Death Prophet",
+                "Razor"
+            ],
+            "combo": [
+                "Underlord"
+            ],
+            "meta": 24,
+            "player_skills": 57,
+            "rank_play": "LOW",
+            "id": 29,
+            "localized_name": "Tidehunter"
+        },
+        {
+            "name": "witch_doctor",
+            "role": "SUPPORT",
+            "good_against": [],
+            "bad_against": [
+                "Faceless Void",
+                "Kunkka",
+                "Lina",
+                "Luna"
+            ],
+            "combo": [
+                "Faceless Void",
+                "Nyx Assassin",
+                "Treant Protector",
+                "Chen"
+            ],
+            "meta": 55,
+            "player_skills": 57,
+            "rank_play": "LOW",
+            "id": 30,
+            "localized_name": "Witch Doctor"
+        },
+        {
+            "name": "riki",
+            "role": "CARRY",
+            "good_against": [
+                "Ancient Apparition"
+            ],
+            "bad_against": [
+                "Axe",
+                "Bounty Hunter",
+                "Bristleback",
+                "Legion Commander"
+            ],
+            "combo": [
+                "Magnus"
+            ],
+            "meta": 85,
+            "player_skills": 61,
+            "rank_play": "LOW",
+            "id": 32,
+            "localized_name": "Riki"
+        },
+        {
+            "name": "enigma",
+            "role": "JUNGLER",
+            "good_against": [
+                "Juggernaut"
+            ],
+            "bad_against": [
+                "Abaddon",
+                "Anti-Mage",
+                "Bloodseeker",
+                "Bristleback"
+            ],
+            "combo": [
+                "Lich",
+                "Warlock"
+            ],
+            "meta": 5,
+            "player_skills": 1,
+            "rank_play": "HIGH",
+            "id": 33,
+            "localized_name": "Enigma"
+        },
+        {
+            "name": "tinker",
+            "role": "MID",
+            "good_against": [
+                "Drow Ranger"
+            ],
+            "bad_against": [
+                "Anti-Mage",
+                "Clockwerk",
+                "Dazzle",
+                "Doom"
+            ],
+            "combo": [
+                "Faceless Void"
+            ],
+            "meta": 76,
+            "player_skills": 50,
+            "rank_play": "HIGH",
+            "id": 34,
+            "localized_name": "Tinker"
+        },
+        {
+            "name": "sniper",
+            "role": "MID",
+            "good_against": [
+                "Outworld Destroyer",
+                "Pugna"
+            ],
+            "bad_against": [
+                "Axe",
+                "Bloodseeker",
+                "Bounty Hunter",
+                "Centaur Warrunner"
+            ],
+            "combo": [
+                "Bloodseeker"
+            ],
+            "meta": 32,
+            "player_skills": 48,
+            "rank_play": "HIGH",
+            "id": 35,
+            "localized_name": "Sniper"
+        },
+        {
+            "name": "necrophos",
+            "role": "JUNGLER",
+            "good_against": [
+                "Axe",
+                "Lone Druid",
+                "Underlord"
+            ],
+            "bad_against": [
+                "Ancient Apparition",
+                "Pugna",
+                "Silencer",
+                "Nyx Assassin"
+            ],
+            "combo": [
+                "Abaddon"
+            ],
+            "meta": 59,
+            "player_skills": 36,
+            "rank_play": "HIGH",
+            "id": 36,
+            "localized_name": "Necrophos"
+        },
+        {
+            "name": "warlock",
+            "role": "SUPPORT",
+            "good_against": [],
+            "bad_against": [
+                "Weaver",
+                "Anti-Mage",
+                "Bloodseeker",
+                "Silencer",
+                "Dark Seer"
+            ],
+            "combo": [
+                "Enigma"
+            ],
+            "meta": 42,
+            "player_skills": 98,
+            "rank_play": "LOW",
+            "id": 37,
+            "localized_name": "Warlock"
+        },
+        {
+            "name": "beastmaster",
+            "role": "JUNGLER",
+            "good_against": [
+                "Lifestealer",
+                "Lycan",
+                "Techies"
+            ],
+            "bad_against": [
+                "Abaddon",
+                "Crystal Maiden",
+                "Enchantress",
+                "Earthshaker"
+            ],
+            "combo": [
+                "Jakiro",
+                "Lone Druid"
+            ],
+            "meta": 61,
+            "player_skills": 50,
+            "rank_play": "HIGH",
+            "id": 38,
+            "localized_name": "Beastmaster"
+        },
+        {
+            "name": "queen_of_pain",
+            "role": "MID",
+            "good_against": [],
+            "bad_against": [
+                "Anti-Mage",
+                "Arc Warden",
+                "Axe",
+                "Bloodseeker"
+            ],
+            "combo": [
+                "Axe"
+            ],
+            "meta": 93,
+            "player_skills": 65,
+            "rank_play": "LOW",
+            "id": 39,
+            "localized_name": "Queen of Pain"
+        },
+        {
+            "name": "venomancer",
+            "role": "TANK",
+            "good_against": [
+                "Templar Assassin"
+            ],
+            "bad_against": [
+                "Anti-Mage",
+                "Abaddon",
+                "Huskar",
+                "Legion Commander"
+            ],
+            "combo": [
+                "Juggernaut"
+            ],
+            "meta": 98,
+            "player_skills": 36,
+            "rank_play": "HIGH",
+            "id": 40,
+            "localized_name": "Venomancer"
+        },
+        {
+            "name": "faceless_void",
+            "role": "CARRY",
+            "good_against": [
+                "Bloodseeker",
+                "Bristleback",
+                "Drow Ranger",
+                "Gyrocopter",
+                "Invoker",
+                "Lina",
+                "Puck",
+                "Timbersaw",
+                "Weaver",
+                "Witch Doctor",
+                "Zeus"
+            ],
+            "bad_against": [
+                "Abaddon",
+                "Brewmaster",
+                "Earth Spirit"
+            ],
+            "combo": [
+                "Ancient Apparition",
+                "Death Prophet",
+                "Witch Doctor",
+                "Skywrath Mage",
+                "Tinker"
+            ],
+            "meta": 57,
+            "player_skills": 2,
+            "rank_play": "HIGH",
+            "id": 41,
+            "localized_name": "Faceless Void"
+        },
+        {
+            "name": "wraith_king",
+            "role": "CARRY",
+            "good_against": [],
+            "bad_against": [
+                "Anti-Mage",
+                "Broodmother",
+                "Chaos Knight",
+                "Juggernaut"
+            ],
+            "combo": [
+                "Bloodseeker"
+            ],
+            "meta": 9,
+            "player_skills": 0,
+            "rank_play": "HIGH",
+            "id": 42,
+            "localized_name": "Wraith King"
+        },
+        {
+            "name": "death_prophet",
+            "role": "MID",
+            "good_against": [
+                "Bounty Hunter",
+                "Brewmaster",
+                "Earthshaker",
+                "Nature's Prophet",
+                "Tidehunter"
+            ],
+            "bad_against": [
+                "Ancient Apparition",
+                "Anti-Mage",
+                "Doom",
+                "Legion Commander"
+            ],
+            "combo": [
+                "Faceless Void",
+                "Razor"
+            ],
+            "meta": 33,
+            "player_skills": 91,
+            "rank_play": "HIGH",
+            "id": 43,
+            "localized_name": "Death Prophet"
+        },
+        {
+            "name": "phantom_assassin",
+            "role": "CARRY",
+            "good_against": [
+                "Lone Druid"
+            ],
+            "bad_against": [
+                "Axe",
+                "Bane",
+                "Broodmother",
+                "Centaur Warrunner"
+            ],
+            "combo": [
+                "Ancient Apparition"
+            ],
+            "meta": 51,
+            "player_skills": 57,
+            "rank_play": "LOW",
+            "id": 44,
+            "localized_name": "Phantom Assassin"
+        },
+        {
+            "name": "pugna",
+            "role": "MID",
+            "good_against": [
+                "Leshrac",
+                "Necrophos",
+                "Skywrath Mage",
+                "Sven",
+                "Zeus"
+            ],
+            "bad_against": [
+                "Nyx Assassin",
+                "Clockwerk",
+                "Sniper",
+                "Phantom Lancer"
+            ],
+            "combo": [
+                "Lion"
+            ],
+            "meta": 79,
+            "player_skills": 48,
+            "rank_play": "HIGH",
+            "id": 45,
+            "localized_name": "Pugna"
+        },
+        {
+            "name": "templar_assassin",
+            "role": "MID",
+            "good_against": [
+                "Zeus"
+            ],
+            "bad_against": [
+                "Venomancer",
+                "Windranger",
+                "Phoenix",
+                "Batrider"
+            ],
+            "combo": [
+                "Slardar"
+            ],
+            "meta": 43,
+            "player_skills": 66,
+            "rank_play": "HIGH",
+            "id": 46,
+            "localized_name": "Templar Assassin"
+        },
+        {
+            "name": "viper",
+            "role": "TANK",
+            "good_against": [
+                "Zeus"
+            ],
+            "bad_against": [
+                "Chaos Knight",
+                "Invoker",
+                "Broodmother",
+                "Morphling"
+            ],
+            "combo": [
+                "Abaddon"
+            ],
+            "meta": 22,
+            "player_skills": 60,
+            "rank_play": "LOW",
+            "id": 47,
+            "localized_name": "Viper"
+        },
+        {
+            "name": "luna",
+            "role": "JUNGLER",
+            "good_against": [
+                "Bane",
+                "Bounty Hunter",
+                "Omniknight",
+                "Underlord",
+                "Undying",
+                "Visage",
+                "Winter Wyvern",
+                "Witch Doctor"
+            ],
+            "bad_against": [
+                "Bristleback",
+                "Broodmother",
+                "Juggernaut",
+                "Lina"
+            ],
+            "combo": [
+                "Spectre"
+            ],
+            "meta": 13,
+            "player_skills": 14,
+            "rank_play": "HIGH",
+            "id": 48,
+            "localized_name": "Luna"
+        },
+        {
+            "name": "dragon_knight",
+            "role": "TANK",
+            "good_against": [
+                "Shadow Shaman",
+                "Silencer"
+            ],
+            "bad_against": [
+                "Ancient Apparition",
+                "Bristleback",
+                "Drow Ranger",
+                "Lich"
+            ],
+            "combo": [
+                "Chen"
+            ],
+            "meta": 8,
+            "player_skills": 48,
+            "rank_play": "HIGH",
+            "id": 49,
+            "localized_name": "Dragon Knight"
+        },
+        {
+            "name": "dazzle",
+            "role": "SUPPORT",
+            "good_against": [
+                "Bloodseeker",
+                "Clockwerk",
+                "Legion Commander",
+                "Tinker"
+            ],
+            "bad_against": [
+                "Ancient Apparition",
+                "Axe",
+                "Naga Siren",
+                "Outworld Destroyer"
+            ],
+            "combo": [
+                "Brewmaster",
+                "Huskar",
+                "Naga Siren",
+                "Phantom Lancer",
+                "Terrorblade"
+            ],
+            "meta": 36,
+            "player_skills": 26,
+            "rank_play": "HIGH",
+            "id": 50,
+            "localized_name": "Dazzle"
+        },
+        {
+            "name": "clockwerk",
+            "role": "TANK",
+            "good_against": [
+                "Centaur Warrunner",
+                "Crystal Maiden",
+                "Earthshaker",
+                "Elder Titan",
+                "Jakiro",
+                "Leshrac",
+                "Nature's Prophet",
+                "Pugna",
+                "Spirit Breaker",
+                "Sven",
+                "Tinker"
+            ],
+            "bad_against": [
+                "Anti-Mage",
+                "Chen",
+                "Clinkz",
+                "Dazzle"
+            ],
+            "combo": [
+                "Tiny",
+                "Omniknight"
+            ],
+            "meta": 40,
+            "player_skills": 20,
+            "rank_play": "LOW",
+            "id": 51,
+            "localized_name": "Clockwerk"
+        },
+        {
+            "name": "leshrac",
+            "role": "JUNGLER",
+            "good_against": [
+                "Shadow Demon"
+            ],
+            "bad_against": [
+                "Pugna",
+                "Anti-Mage",
+                "Clockwerk",
+                "Lifestealer"
+            ],
+            "combo": [
+                "Ogre Magi"
+            ],
+            "meta": 11,
+            "player_skills": 55,
+            "rank_play": "LOW",
+            "id": 52,
+            "localized_name": "Leshrac"
+        },
+        {
+            "name": "natures_prophet",
+            "role": "JUNGLER",
+            "good_against": [],
+            "bad_against": [
+                "Batrider",
+                "Broodmother",
+                "Clockwerk",
+                "Death Prophet"
+            ],
+            "combo": [],
+            "meta": 4,
+            "player_skills": 60,
+            "rank_play": "LOW",
+            "id": 53,
+            "localized_name": "Nature's Prophet"
+        },
+        {
+            "name": "lifestealer",
+            "role": "JUNGLER",
+            "good_against": [
+                "Axe",
+                "Centaur Warrunner",
+                "Disruptor",
+                "Doom",
+                "Jakiro",
+                "Keeper of the Light",
+                "Leshrac",
+                "Lina",
+                "Lion",
+                "Ogre Magi",
+                "Sven",
+                "Tiny",
+                "Zeus"
+            ],
+            "bad_against": [
+                "Ancient Apparition",
+                "Bane",
+                "Beastmaster",
+                "Chaos Knight"
+            ],
+            "combo": [
+                "Clinkz",
+                "Slark"
+            ],
+            "meta": 18,
+            "player_skills": 53,
+            "rank_play": "HIGH",
+            "id": 54,
+            "localized_name": "Lifestealer"
+        },
+        {
+            "name": "dark_seer",
+            "role": "TANK",
+            "good_against": [
+                "Warlock"
+            ],
+            "bad_against": [
+                "Anti-Mage",
+                "Bloodseeker",
+                "Ember Spirit",
+                "Kunkka"
+            ],
+            "combo": [
+                "Broodmother",
+                "Bounty Hunter",
+                "Earthshaker",
+                "Jakiro",
+                "Kunkka",
+                "Spirit Breaker",
+                "Winter Wyvern"
+            ],
+            "meta": 64,
+            "player_skills": 75,
+            "rank_play": "LOW",
+            "id": 55,
+            "localized_name": "Dark Seer"
+        },
+        {
+            "name": "clinkz",
+            "role": "JUNGLER",
+            "good_against": [
+                "Clockwerk",
+                "Io",
+                "Kunkka",
+                "Rubick"
+            ],
+            "bad_against": [
+                "Bloodseeker",
+                "Bounty Hunter",
+                "Doom",
+                "Enchantress"
+            ],
+            "combo": [
+                "Lifestealer"
+            ],
+            "meta": 99,
+            "player_skills": 80,
+            "rank_play": "LOW",
+            "id": 56,
+            "localized_name": "Clinkz"
+        },
+        {
+            "name": "omniknight",
+            "role": "SUPPORT",
+            "good_against": [
+                "Spirit Breaker"
+            ],
+            "bad_against": [
+                "Brewmaster",
+                "Doom",
+                "Invoker",
+                "Luna"
+            ],
+            "combo": [
+                "Clockwerk",
+                "Tusk"
+            ],
+            "meta": 75,
+            "player_skills": 4,
+            "rank_play": "HIGH",
+            "id": 57,
+            "localized_name": "Omniknight"
+        },
+        {
+            "name": "enchantress",
+            "role": "JUNGLER",
+            "good_against": [
+                "Alchemist",
+                "Beastmaster",
+                "Chen",
+                "Clinkz"
+            ],
+            "bad_against": [
+                "Razor",
+                "Broodmother",
+                "Chen",
+                "Crystal Maiden"
+            ],
+            "combo": [
+                "Legion Commander"
+            ],
+            "meta": 74,
+            "player_skills": 98,
+            "rank_play": "HIGH",
+            "id": 58,
+            "localized_name": "Enchantress"
+        },
+        {
+            "name": "huskar",
+            "role": "TANK",
+            "good_against": [
+                "Gyrocopter",
+                "Lich",
+                "Magnus",
+                "Oracle",
+                "Phoenix",
+                "Skywrath Mage",
+                "Venomancer"
+            ],
+            "bad_against": [
+                "Abaddon",
+                "Alchemist",
+                "Ancient Apparition",
+                "Axe"
+            ],
+            "combo": [
+                "Dazzle",
+                "Abaddon"
+            ],
+            "meta": 49,
+            "player_skills": 31,
+            "rank_play": "LOW",
+            "id": 59,
+            "localized_name": "Huskar"
+        },
+        {
+            "name": "night_stalker",
+            "role": "TANK",
+            "good_against": [
+                "Keeper of the Light",
+                "Oracle",
+                "Phoenix",
+                "Storm Spirit"
+            ],
+            "bad_against": [
+                "Chaos Knight",
+                "Lycan",
+                "Naga Siren",
+                "Phantom Lancer"
+            ],
+            "combo": [
+                "Oracle"
+            ],
+            "meta": 15,
+            "player_skills": 67,
+            "rank_play": "LOW",
+            "id": 60,
+            "localized_name": "Night Stalker"
+        },
+        {
+            "name": "broodmother",
+            "role": "JUNGLER",
+            "good_against": [
+                "Arc Warden",
+                "Enchantress",
+                "Invoker",
+                "Lich",
+                "Luna",
+                "Medusa",
+                "Nature's Prophet",
+                "Phantom Assassin",
+                "Wraith King",
+                "Rubick",
+                "Silencer",
+                "Viper"
+            ],
+            "bad_against": [
+                "Alchemist",
+                "Axe",
+                "Ancient Apparition",
+                "Bristleback"
+            ],
+            "combo": [
+                "Dark Seer",
+                "Undying"
+            ],
+            "meta": 3,
+            "player_skills": 24,
+            "rank_play": "HIGH",
+            "id": 61,
+            "localized_name": "Broodmother"
+        },
+        {
+            "name": "bounty_hunter",
+            "role": "SUPPORT",
+            "good_against": [
+                "Clinkz",
+                "Crystal Maiden",
+                "Nyx Assassin",
+                "Pudge",
+                "Riki",
+                "Shadow Fiend",
+                "Sniper"
+            ],
+            "bad_against": [
+                "Bloodseeker",
+                "Death Prophet",
+                "Luna",
+                "Rubick"
+            ],
+            "combo": [
+                "Nyx Assassin",
+                "Dark Seer",
+                "Slardar",
+                "Timbersaw",
+                "Vengeful Spirit"
+            ],
+            "meta": 112,
+            "player_skills": 83,
+            "rank_play": "LOW",
+            "id": 62,
+            "localized_name": "Bounty Hunter"
+        },
+        {
+            "name": "weaver",
+            "role": "CARRY",
+            "good_against": [
+                "Warlock"
+            ],
+            "bad_against": [
+                "Axe",
+                "Bloodseeker",
+                "Drow Ranger",
+                "Faceless Void"
+            ],
+            "combo": [
+                "Crystal Maiden"
+            ],
+            "meta": 31,
+            "player_skills": 34,
+            "rank_play": "HIGH",
+            "id": 63,
+            "localized_name": "Weaver"
+        },
+        {
+            "name": "jakiro",
+            "role": "SUPPORT",
+            "good_against": [
+                "Axe",
+                "Puck"
+            ],
+            "bad_against": [
+                "Anti-Mage",
+                "Clockwerk",
+                "Lifestealer",
+                "Oracle"
+            ],
+            "combo": [
+                "Beastmaster",
+                "Dark Seer"
+            ],
+            "meta": 72,
+            "player_skills": 84,
+            "rank_play": "HIGH",
+            "id": 64,
+            "localized_name": "Jakiro"
+        },
+        {
+            "name": "batrider",
+            "role": "TANK",
+            "good_against": [
+                "Naga Siren",
+                "Nature's Prophet",
+                "Phantom Lancer",
+                "Techies",
+                "Templar Assassin"
+            ],
+            "bad_against": [
+                "Abaddon",
+                "Kunkka",
+                "Legion Commander",
+                "Nyx Assassin"
+            ],
+            "combo": [
+                "Techies"
+            ],
+            "meta": 67,
+            "player_skills": 15,
+            "rank_play": "LOW",
+            "id": 65,
+            "localized_name": "Batrider"
+        },
+        {
+            "name": "chen",
+            "role": "JUNGLER",
+            "good_against": [
+                "Clockwerk",
+                "Enchantress"
+            ],
+            "bad_against": [
+                "Crystal Maiden",
+                "Enchantress",
+                "Earthshaker",
+                "Legion Commander"
+            ],
+            "combo": [
+                "Vengeful Spirit",
+                "Dragon Knight",
+                "Witch Doctor"
+            ],
+            "meta": 39,
+            "player_skills": 63,
+            "rank_play": "HIGH",
+            "id": 66,
+            "localized_name": "Chen"
+        },
+        {
+            "name": "spectre",
+            "role": "CARRY",
+            "good_against": [],
+            "bad_against": [
+                "Anti-Mage",
+                "Doom",
+                "Juggernaut",
+                "Lion"
+            ],
+            "combo": [
+                "Luna"
+            ],
+            "meta": 17,
+            "player_skills": 97,
+            "rank_play": "LOW",
+            "id": 67,
+            "localized_name": "Spectre"
+        },
+        {
+            "name": "doom",
+            "role": "JUNGLER",
+            "good_against": [
+                "Abaddon",
+                "Axe",
+                "Bristleback",
+                "Clinkz",
+                "Crystal Maiden",
+                "Death Prophet",
+                "Invoker",
+                "Nyx Assassin",
+                "Ogre Magi",
+                "Omniknight",
+                "Spectre",
+                "Storm Spirit",
+                "Timbersaw",
+                "Tinker",
+                "Ursa",
+                "Visage"
+            ],
+            "bad_against": [
+                "Alchemist",
+                "Centaur Warrunner",
+                "Drow Ranger",
+                "Lifestealer"
+            ],
+            "combo": [
+                "Crystal Maiden"
+            ],
+            "meta": 92,
+            "player_skills": 25,
+            "rank_play": "HIGH",
+            "id": 69,
+            "localized_name": "Doom"
+        },
+        {
+            "name": "ancient_apparition",
+            "role": "SUPPORT",
+            "good_against": [
+                "Abaddon",
+                "Alchemist",
+                "Broodmother",
+                "Dazzle",
+                "Death Prophet",
+                "Dragon Knight",
+                "Huskar",
+                "Io",
+                "Lifestealer",
+                "Morphling",
+                "Necrophos",
+                "Slark",
+                "Winter Wyvern"
+            ],
+            "bad_against": [
+                "Anti-Mage",
+                "Brewmaster",
+                "Riki",
+                "Lycan"
+            ],
+            "combo": [
+                "Faceless Void",
+                "Chaos Knight",
+                "Phantom Assassin",
+                "Shadow Demon",
+                "Zeus"
+            ],
+            "meta": 70,
+            "player_skills": 74,
+            "rank_play": "LOW",
+            "id": 68,
+            "localized_name": "Ancient Apparition"
+        },
+        {
+            "name": "ursa",
+            "role": "CARRY",
+            "good_against": [
+                "Kunkka",
+                "Oracle",
+                "Phoenix",
+                "Zeus"
+            ],
+            "bad_against": [
+                "Anti-Mage",
+                "Bane",
+                "Doom",
+                "Lion"
+            ],
+            "combo": [
+                "Io"
+            ],
+            "meta": 77,
+            "player_skills": 59,
+            "rank_play": "LOW",
+            "id": 70,
+            "localized_name": "Ursa"
+        },
+        {
+            "name": "spirit_breaker",
+            "role": "TANK",
+            "good_against": [],
+            "bad_against": [
+                "Omniknight",
+                "Clockwerk",
+                "Ember Spirit",
+                "Outworld Destroyer"
+            ],
+            "combo": [
+                "Dark Seer"
+            ],
+            "meta": 96,
+            "player_skills": 66,
+            "rank_play": "LOW",
+            "id": 71,
+            "localized_name": "Spirit Breaker"
+        },
+        {
+            "name": "gyrocopter",
+            "role": "CARRY",
+            "good_against": [
+                "Undying"
+            ],
+            "bad_against": [
+                "Anti-Mage",
+                "Arc Warden",
+                "Huskar",
+                "Faceless Void"
+            ],
+            "combo": [
+                "Io"
+            ],
+            "meta": 19,
+            "player_skills": 66,
+            "rank_play": "LOW",
+            "id": 72,
+            "localized_name": "Gyrocopter"
+        },
+        {
+            "name": "alchemist",
+            "role": "CARRY",
+            "good_against": [
+                "Broodmother",
+                "Doom",
+                "Huskar",
+                "Magnus",
+                "Undying"
+            ],
+            "bad_against": [
+                "Ancient Apparition",
+                "Enchantress",
+                "Invoker",
+                "Kunkka"
+            ],
+            "combo": [
+                "Io",
+                "Earth Spirit",
+                "Oracle",
+                "Rubick"
+            ],
+            "meta": 105,
+            "player_skills": 29,
+            "rank_play": "LOW",
+            "id": 73,
+            "localized_name": "Alchemist"
+        },
+        {
+            "name": "invoker",
+            "role": "MID",
+            "good_against": [
+                "Alchemist",
+                "Omniknight",
+                "Viper",
+                "Winter Wyvern"
+            ],
+            "bad_against": [
+                "Anti-Mage",
+                "Broodmother",
+                "Doom",
+                "Faceless Void"
+            ],
+            "combo": [
+                "Bloodseeker"
+            ],
+            "meta": 65,
+            "player_skills": 22,
+            "rank_play": "HIGH",
+            "id": 74,
+            "localized_name": "Invoker"
+        },
+        {
+            "name": "silencer",
+            "role": "SUPPORT",
+            "good_against": [
+                "Ember Spirit",
+                "Kunkka",
+                "Necrophos",
+                "Outworld Destroyer",
+                "Sand King",
+                "Warlock",
+                "Zeus"
+            ],
+            "bad_against": [
+                "Dragon Knight",
+                "Broodmother",
+                "Lycan",
+                "Nyx Assassin"
+            ],
+            "combo": [
+                "Slardar"
+            ],
+            "meta": 78,
+            "player_skills": 8,
+            "rank_play": "HIGH",
+            "id": 75,
+            "localized_name": "Silencer"
+        },
+        {
+            "name": "outworld_destroyer",
+            "role": "MID",
+            "good_against": [
+                "Abaddon",
+                "Brewmaster",
+                "Dazzle",
+                "Spirit Breaker"
+            ],
+            "bad_against": [
+                "Nyx Assassin",
+                "Rubick",
+                "Silencer",
+                "Sniper"
+            ],
+            "combo": [
+                "Ogre Magi"
+            ],
+            "meta": 48,
+            "player_skills": 96,
+            "rank_play": "LOW",
+            "id": 76,
+            "localized_name": "Outworld Destroyer"
+        },
+        {
+            "name": "lycan",
+            "role": "CARRY",
+            "good_against": [
+                "Ancient Apparition",
+                "Night Stalker",
+                "Puck",
+                "Silencer"
+            ],
+            "bad_against": [
+                "Axe",
+                "Beastmaster",
+                "Bloodseeker",
+                "Bristleback"
+            ],
+            "combo": [
+                "Arc Warden",
+                "Crystal Maiden"
+            ],
+            "meta": 6,
+            "player_skills": 92,
+            "rank_play": "LOW",
+            "id": 77,
+            "localized_name": "Lycan"
+        },
+        {
+            "name": "brewmaster",
+            "role": "TANK",
+            "good_against": [
+                "Abaddon",
+                "Ancient Apparition",
+                "Chaos Knight",
+                "Elder Titan",
+                "Faceless Void",
+                "Nyx Assassin",
+                "Omniknight"
+            ],
+            "bad_against": [
+                "Bane",
+                "Death Prophet",
+                "Lion",
+                "Outworld Destroyer"
+            ],
+            "combo": [
+                "Dazzle"
+            ],
+            "meta": 20,
+            "player_skills": 89,
+            "rank_play": "HIGH",
+            "id": 78,
+            "localized_name": "Brewmaster"
+        },
+        {
+            "name": "shadow_demon",
+            "role": "SUPPORT",
+            "good_against": [
+                "Abaddon"
+            ],
+            "bad_against": [
+                "Ember Spirit",
+                "Leshrac",
+                "Lina",
+                "Lion"
+            ],
+            "combo": [
+                "Lina",
+                "Ancient Apparition"
+            ],
+            "meta": 10,
+            "player_skills": 85,
+            "rank_play": "HIGH",
+            "id": 79,
+            "localized_name": "Shadow Demon"
+        },
+        {
+            "name": "lone_druid",
+            "role": "JUNGLER",
+            "good_against": [],
+            "bad_against": [
+                "Phantom Assassin",
+                "Bristleback",
+                "Necrophos"
+            ],
+            "combo": [
+                "Beastmaster"
+            ],
+            "meta": 7,
+            "player_skills": 90,
+            "rank_play": "LOW",
+            "id": 80,
+            "localized_name": "Lone Druid"
+        },
+        {
+            "name": "chaos_knight",
+            "role": "CARRY",
+            "good_against": [
+                "Juggernaut",
+                "Lifestealer",
+                "Morphling",
+                "Night Stalker",
+                "Ogre Magi",
+                "Wraith King",
+                "Razor",
+                "Troll Warlord",
+                "Viper",
+                "Zeus"
+            ],
+            "bad_against": [
+                "Abaddon",
+                "Anti-Mage",
+                "Axe",
+                "Brewmaster"
+            ],
+            "combo": [
+                "Ancient Apparition"
+            ],
+            "meta": 23,
+            "player_skills": 81,
+            "rank_play": "HIGH",
+            "id": 81,
+            "localized_name": "Chaos Knight"
+        },
+        {
+            "name": "meepo",
+            "role": "MID",
+            "good_against": [
+                "Ogre Magi",
+                "Shadow Shaman",
+                "Slardar",
+                "Zeus"
+            ],
+            "bad_against": [
+                "Axe",
+                "Earthshaker",
+                "Elder Titan",
+                "Ember Spirit"
+            ],
+            "combo": [
+                "Disruptor"
+            ],
+            "meta": 34,
+            "player_skills": 72,
+            "rank_play": "HIGH",
+            "id": 82,
+            "localized_name": "Meepo"
+        },
+        {
+            "name": "treant_protector",
+            "role": "SUPPORT",
+            "good_against": [],
+            "bad_against": [
+                "Phantom Lancer",
+                "Rubick",
+                "Slardar"
+            ],
+            "combo": [
+                "Witch Doctor"
+            ],
+            "meta": 25,
+            "player_skills": 10,
+            "rank_play": "LOW",
+            "id": 83,
+            "localized_name": "Treant Protector"
+        },
+        {
+            "name": "ogre_magi",
+            "role": "SUPPORT",
+            "good_against": [],
+            "bad_against": [
+                "Chaos Knight",
+                "Doom",
+                "Lifestealer",
+                "Meepo"
+            ],
+            "combo": [
+                "Leshrac",
+                "Outworld Destroyer",
+                "Troll Warlord"
+            ],
+            "meta": 71,
+            "player_skills": 8,
+            "rank_play": "LOW",
+            "id": 84,
+            "localized_name": "Ogre Magi"
+        },
+        {
+            "name": "undying",
+            "role": "TANK",
+            "good_against": [],
+            "bad_against": [
+                "Alchemist",
+                "Earthshaker",
+                "Gyrocopter",
+                "Luna"
+            ],
+            "combo": [
+                "Broodmother"
+            ],
+            "meta": 88,
+            "player_skills": 2,
+            "rank_play": "LOW",
+            "id": 85,
+            "localized_name": "Undying"
+        },
+        {
+            "name": "rubick",
+            "role": "SUPPORT",
+            "good_against": [
+                "Bane",
+                "Bounty Hunter",
+                "Lion",
+                "Outworld Destroyer",
+                "Sand King",
+                "Treant Protector"
+            ],
+            "bad_against": [
+                "Bristleback",
+                "Broodmother",
+                "Clinkz",
+                "Legion Commander"
+            ],
+            "combo": [
+                "Alchemist"
+            ],
+            "meta": 108,
+            "player_skills": 81,
+            "rank_play": "LOW",
+            "id": 86,
+            "localized_name": "Rubick"
+        },
+        {
+            "name": "disruptor",
+            "role": "SUPPORT",
+            "good_against": [
+                "Anti-Mage",
+                "Centaur Warrunner",
+                "Earthshaker",
+                "Magnus",
+                "Tusk",
+                "Underlord"
+            ],
+            "bad_against": [
+                "Abaddon",
+                "Kunkka",
+                "Juggernaut",
+                "Lifestealer"
+            ],
+            "combo": [
+                "Keeper of the Light",
+                "Elder Titan",
+                "Meepo",
+                "Underlord"
+            ],
+            "meta": 86,
+            "player_skills": 17,
+            "rank_play": "LOW",
+            "id": 87,
+            "localized_name": "Disruptor"
+        },
+        {
+            "name": "nyx_assassin",
+            "role": "SUPPORT",
+            "good_against": [
+                "Batrider",
+                "Keeper of the Light",
+                "Lina",
+                "Necrophos",
+                "Outworld Destroyer",
+                "Pugna",
+                "Silencer",
+                "Tidehunter",
+                "Vengeful Spirit",
+                "Windranger"
+            ],
+            "bad_against": [
+                "Bounty Hunter",
+                "Bloodseeker",
+                "Brewmaster",
+                "Doom"
+            ],
+            "combo": [
+                "Bounty Hunter",
+                "Witch Doctor"
+            ],
+            "meta": 100,
+            "player_skills": 43,
+            "rank_play": "HIGH",
+            "id": 88,
+            "localized_name": "Nyx Assassin"
+        },
+        {
+            "name": "naga_siren",
+            "role": "CARRY",
+            "good_against": [
+                "Dazzle",
+                "Night Stalker",
+                "Winter Wyvern"
+            ],
+            "bad_against": [
+                "Axe",
+                "Batrider",
+                "Earthshaker",
+                "Lion"
+            ],
+            "combo": [
+                "Dazzle"
+            ],
+            "meta": 58,
+            "player_skills": 72,
+            "rank_play": "LOW",
+            "id": 89,
+            "localized_name": "Naga Siren"
+        },
+        {
+            "name": "keeper_of_the_light",
+            "role": "SUPPORT",
+            "good_against": [],
+            "bad_against": [
+                "Legion Commander",
+                "Lifestealer",
+                "Night Stalker",
+                "Nyx Assassin"
+            ],
+            "combo": [
+                "Axe",
+                "Bristleback",
+                "Disruptor",
+                "Ember Spirit",
+                "Storm Spirit"
+            ],
+            "meta": 80,
+            "player_skills": 83,
+            "rank_play": "HIGH",
+            "id": 90,
+            "localized_name": "Keeper of the Light"
+        },
+        {
+            "name": "io",
+            "role": "SUPPORT",
+            "good_against": [],
+            "bad_against": [
+                "Ancient Apparition",
+                "Bloodseeker",
+                "Bristleback",
+                "Clinkz"
+            ],
+            "combo": [
+                "Alchemist",
+                "Gyrocopter",
+                "Sven",
+                "Ursa"
+            ],
+            "meta": 54,
+            "player_skills": 17,
+            "rank_play": "HIGH",
+            "id": 91,
+            "localized_name": "Io"
+        },
+        {
+            "name": "visage",
+            "role": "MID",
+            "good_against": [],
+            "bad_against": [
+                "Axe",
+                "Phoenix",
+                "Luna",
+                "Doom"
+            ],
+            "combo": [
+                "Slardar"
+            ],
+            "meta": 27,
+            "player_skills": 38,
+            "rank_play": "LOW",
+            "id": 92,
+            "localized_name": "Visage"
+        },
+        {
+            "name": "slark",
+            "role": "CARRY",
+            "good_against": [
+                "Earth Spirit"
+            ],
+            "bad_against": [
+                "Ancient Apparition",
+                "Axe",
+                "Bloodseeker",
+                "Centaur Warrunner"
+            ],
+            "combo": [
+                "Lifestealer"
+            ],
+            "meta": 106,
+            "player_skills": 92,
+            "rank_play": "LOW",
+            "id": 93,
+            "localized_name": "Slark"
+        },
+        {
+            "name": "medusa",
+            "role": "CARRY",
+            "good_against": [],
+            "bad_against": [
+                "Anti-Mage",
+                "Arc Warden",
+                "Bane",
+                "Broodmother"
+            ],
+            "combo": [
+                "Axe"
+            ],
+            "meta": 107,
+            "player_skills": 46,
+            "rank_play": "HIGH",
+            "id": 94,
+            "localized_name": "Medusa"
+        },
+        {
+            "name": "troll_warlord",
+            "role": "CARRY",
+            "good_against": [],
+            "bad_against": [
+                "Shadow Shaman",
+                "Chaos Knight",
+                "Axe",
+                "Bane"
+            ],
+            "combo": [
+                "Ogre Magi"
+            ],
+            "meta": 21,
+            "player_skills": 4,
+            "rank_play": "HIGH",
+            "id": 95,
+            "localized_name": "Troll Warlord"
+        },
+        {
+            "name": "centaur_warruner",
+            "role": "TANK",
+            "good_against": [
+                "Doom",
+                "Phantom Assassin",
+                "Phantom Lancer",
+                "Razor",
+                "Slark",
+                "Sniper",
+                "Windranger"
+            ],
+            "bad_against": [
+                "Clockwerk",
+                "Disruptor",
+                "Kunkka",
+                "Lifestealer"
+            ],
+            "combo": [
+                "Tusk"
+            ],
+            "meta": 30,
+            "player_skills": 76,
+            "rank_play": "HIGH",
+            "id": 96,
+            "localized_name": "Centaur Warrunner"
+        },
+        {
+            "name": "magnus",
+            "role": "MID",
+            "good_against": [],
+            "bad_against": [
+                "Alchemist",
+                "Bloodseeker",
+                "Disruptor",
+                "Huskar"
+            ],
+            "combo": [
+                "Lich",
+                "Riki"
+            ],
+            "meta": 103,
+            "player_skills": 62,
+            "rank_play": "HIGH",
+            "id": 97,
+            "localized_name": "Magnus"
+        },
+        {
+            "name": "timbersaw",
+            "role": "TANK",
+            "good_against": [],
+            "bad_against": [
+                "Bane",
+                "Doom",
+                "Ember Spirit",
+                "Faceless Void"
+            ],
+            "combo": [
+                "Bounty Hunter"
+            ],
+            "meta": 68,
+            "player_skills": 33,
+            "rank_play": "LOW",
+            "id": 98,
+            "localized_name": "Timbersaw"
+        },
+        {
+            "name": "bristleback",
+            "role": "TANK",
+            "good_against": [
+                "Arc Warden",
+                "Broodmother",
+                "Crystal Maiden",
+                "Dragon Knight",
+                "Enigma",
+                "Io",
+                "Lone Druid",
+                "Luna",
+                "Lycan",
+                "Phantom Lancer",
+                "Pudge",
+                "Riki",
+                "Rubick",
+                "Tiny"
+            ],
+            "bad_against": [
+                "Anti-Mage",
+                "Doom",
+                "Faceless Void"
+            ],
+            "combo": [
+                "Keeper of the Light"
+            ],
+            "meta": 29,
+            "player_skills": 72,
+            "rank_play": "LOW",
+            "id": 99,
+            "localized_name": "Bristleback"
+        },
+        {
+            "name": "tusk",
+            "role": "SUPPORT",
+            "good_against": [
+                "Drow Ranger"
+            ],
+            "bad_against": [
+                "Anti-Mage",
+                "Disruptor",
+                "Earth Spirit",
+                "Earthshaker"
+            ],
+            "combo": [
+                "Centaur Warrunner",
+                "Omniknight"
+            ],
+            "meta": 50,
+            "player_skills": 14,
+            "rank_play": "LOW",
+            "id": 100,
+            "localized_name": "Tusk"
+        },
+        {
+            "name": "skywrath_mage",
+            "role": "SUPPORT",
+            "good_against": [],
+            "bad_against": [
+                "Anti-Mage",
+                "Huskar",
+                "Abaddon",
+                "Pugna"
+            ],
+            "combo": [
+                "Faceless Void"
+            ],
+            "meta": 101,
+            "player_skills": 50,
+            "rank_play": "LOW",
+            "id": 101,
+            "localized_name": "Skywrath Mage"
+        },
+        {
+            "name": "abaddon",
+            "role": "SUPPORT",
+            "good_against": [
+                "Bane",
+                "Batrider",
+                "Beastmaster",
+                "Bloodseeker",
+                "Chaos Knight",
+                "Disruptor",
+                "Earth Spirit",
+                "Enigma",
+                "Faceless Void",
+                "Huskar",
+                "Legion Commander",
+                "Lion",
+                "Mirana",
+                "Pudge",
+                "Skywrath Mage",
+                "Slardar",
+                "Techies",
+                "Venomancer"
+            ],
+            "bad_against": [
+                "Ancient Apparition",
+                "Axe",
+                "Brewmaster",
+                "Doom",
+                "Lina",
+                "Outworld Destroyer",
+                "Shadow Demon"
+            ],
+            "combo": [
+                "Huskar",
+                "Necrophos",
+                "Viper"
+            ],
+            "meta": 35,
+            "player_skills": 81,
+            "rank_play": "HIGH",
+            "id": 102,
+            "localized_name": "Abaddon"
+        },
+        {
+            "name": "elder_titan",
+            "role": "TANK",
+            "good_against": [
+                "Meepo",
+                "Terrorblade"
+            ],
+            "bad_against": [
+                "Brewmaster",
+                "Clockwerk",
+                "Lich",
+                "Lion"
+            ],
+            "combo": [
+                "Disruptor"
+            ],
+            "meta": 12,
+            "player_skills": 60,
+            "rank_play": "HIGH",
+            "id": 103,
+            "localized_name": "Elder Titan"
+        },
+        {
+            "name": "legion_commander",
+            "role": "JUNGLER",
+            "good_against": [
+                "Batrider",
+                "Chen",
+                "Death Prophet",
+                "Keeper of the Light",
+                "Riki",
+                "Rubick",
+                "Venomancer"
+            ],
+            "bad_against": [
+                "Abaddon",
+                "Bane",
+                "Arc Warden",
+                "Dazzle"
+            ],
+            "combo": [
+                "Enchantress",
+                "Lion"
+            ],
+            "meta": 110,
+            "player_skills": 9,
+            "rank_play": "LOW",
+            "id": 104,
+            "localized_name": "Legion Commander"
+        },
+        {
+            "name": "ember_spirit",
+            "role": "MID",
+            "good_against": [
+                "Bloodseeker",
+                "Dark Seer",
+                "Meepo",
+                "Shadow Demon",
+                "Spirit Breaker",
+                "Timbersaw"
+            ],
+            "bad_against": [
+                "Lion",
+                "Shadow Fiend",
+                "Silencer",
+                "Storm Spirit"
+            ],
+            "combo": [
+                "Keeper of the Light"
+            ],
+            "meta": 97,
+            "player_skills": 38,
+            "rank_play": "LOW",
+            "id": 106,
+            "localized_name": "Ember Spirit"
+        },
+        {
+            "name": "earth_spirit",
+            "role": "MID",
+            "good_against": [
+                "Earthshaker",
+                "Faceless Void",
+                "Razor",
+                "Sand King",
+                "Terrorblade",
+                "Tusk"
+            ],
+            "bad_against": [
+                "Abaddon",
+                "Techies",
+                "Slark"
+            ],
+            "combo": [
+                "Alchemist"
+            ],
+            "meta": 53,
+            "player_skills": 36,
+            "rank_play": "LOW",
+            "id": 107,
+            "localized_name": "Earth Spirit"
+        },
+        {
+            "name": "underlord",
+            "role": "TANK",
+            "good_against": [],
+            "bad_against": [
+                "Necrophos",
+                "Razor",
+                "Luna",
+                "Disruptor"
+            ],
+            "combo": [
+                "Tidehunter",
+                "Disruptor"
+            ],
+            "meta": 87,
+            "player_skills": 19,
+            "rank_play": "HIGH",
+            "id": 108,
+            "localized_name": "Underlord"
+        },
+        {
+            "name": "terrorblade",
+            "role": "CARRY",
+            "good_against": [
+                "Anti-Mage"
+            ],
+            "bad_against": [
+                "Drow Ranger",
+                "Earth Spirit",
+                "Axe",
+                "Elder Titan"
+            ],
+            "combo": [
+                "Dazzle"
+            ],
+            "meta": 69,
+            "player_skills": 76,
+            "rank_play": "HIGH",
+            "id": 109,
+            "localized_name": "Terrorblade"
+        },
+        {
+            "name": "phoenix",
+            "role": "TANK",
+            "good_against": [
+                "Sand King",
+                "Templar Assassin",
+                "Visage"
+            ],
+            "bad_against": [
+                "Night Stalker",
+                "Arc Warden",
+                "Huskar",
+                "Ursa"
+            ],
+            "combo": [],
+            "meta": 41,
+            "player_skills": 41,
+            "rank_play": "HIGH",
+            "id": 110,
+            "localized_name": "Phoenix"
+        },
+        {
+            "name": "techies",
+            "role": "JUNGLER",
+            "good_against": [
+                "Earth Spirit"
+            ],
+            "bad_against": [
+                "Abaddon",
+                "Anti-Mage",
+                "Batrider",
+                "Beastmaster"
+            ],
+            "combo": [
+                "Batrider",
+                "Pudge"
+            ],
+            "meta": 102,
+            "player_skills": 23,
+            "rank_play": "LOW",
+            "id": 105,
+            "localized_name": "Techies"
+        },
+        {
+            "name": "oracle",
+            "role": "SUPPORT",
+            "good_against": [
+                "Jakiro",
+                "Slardar"
+            ],
+            "bad_against": [
+                "Night Stalker",
+                "Arc Warden",
+                "Huskar",
+                "Ursa"
+            ],
+            "combo": [
+                "Night Stalker",
+                "Alchemist"
+            ],
+            "meta": 91,
+            "player_skills": 9,
+            "rank_play": "LOW",
+            "id": 111,
+            "localized_name": "Oracle"
+        },
+        {
+            "name": "winter_wyvern",
+            "role": "SUPPORT",
+            "good_against": [],
+            "bad_against": [
+                "Ancient Apparition",
+                "Invoker",
+                "Luna",
+                "Naga Siren"
+            ],
+            "combo": [
+                "Dark Seer"
+            ],
+            "meta": 62,
+            "player_skills": 34,
+            "rank_play": "LOW",
+            "id": 112,
+            "localized_name": "Winter Wyvern"
+        },
+        {
+            "name": "arc_warden",
+            "role": "MID",
+            "good_against": [
+                "Drow Ranger",
+                "Gyrocopter",
+                "Legion Commander",
+                "Medusa",
+                "Mirana",
+                "Morphling",
+                "Oracle",
+                "Phoenix",
+                "Puck",
+                "Queen of Pain"
+            ],
+            "bad_against": [
+                "Broodmother",
+                "Anti-Mage",
+                "Axe",
+                "Bristleback"
+            ],
+            "combo": [
+                "Lycan"
+            ],
+            "meta": 47,
+            "player_skills": 74,
+            "rank_play": "LOW",
+            "id": 113,
+            "localized_name": "Arc Warden"
+        }
+    ]
+}
