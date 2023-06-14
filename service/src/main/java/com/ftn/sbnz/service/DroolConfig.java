@@ -65,40 +65,11 @@ public class DroolConfig {
 		List<Hero> recommendedHeroes = new ArrayList<>();
 		kieSession.setGlobal("recommendedHeroes", recommendedHeroes);
         
-        List<Hero> oppositeTeam = HeroFactory.getOppositeTeam();
-        kieSession.setGlobal("oppositeTeam", oppositeTeam);
-        
-        List<Hero> myTeam = HeroFactory.getMyTeam();
-        kieSession.insert(myTeam);
-        
-        List<String> pickedHeroes = new ArrayList<>();
-        for (Hero hero : oppositeTeam) {
-			pickedHeroes.add(hero.getID());
-		}
-        for (Hero hero : myTeam) {
-			pickedHeroes.add(hero.getID());
-		}
-        kieSession.setGlobal("pickedHeroes", pickedHeroes);
-        
         BooleanWrapper flag = new BooleanWrapper();
         kieSession.setGlobal("flag", flag);
         
-        List<String> counterPicks = new ArrayList<>();
-        for (Hero hero : oppositeTeam) {
-        	for (String heroId : hero.getBadAgainst()) {
-        		counterPicks.add(heroId);
-        	}
-        }
-        kieSession.setGlobal("counterPicks", counterPicks);
-        
-        List<String> combos = new ArrayList<>();
-        for (Hero hero : myTeam) {
-        	for (String heroId: hero.getCombo()) {
-        		combos.add(heroId);
-        	}
-        }
-        System.out.println(combos);
-        kieSession.setGlobal("combos", combos);
+        BooleanWrapper ableToSort = new BooleanWrapper();
+        kieSession.setGlobal("ableToSort", ableToSort);
         
 		return kieSession;
 

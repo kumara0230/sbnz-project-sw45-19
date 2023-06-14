@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Set;
 import java.util.HashSet;
+import java.util.Collections;
 
 global List<Hero> allHeroes;
 global List<Hero> recommendedHeroes;
@@ -13,7 +14,9 @@ global List<Hero> oppositeTeam;
 global List<Hero> myTeam;
 global List<String> counterPicks;
 global List<String> combos;
+global String player_rank;
 global BooleanWrapper flag;
+global BooleanWrapper ableToSort;
 
 
 rule "Check if role is missing and suggest it if so"
@@ -25,8 +28,10 @@ when
 
 then
     boolean added = false;
+    ableToSort.setValue(false);
     for (Hero hero : allHeroes) {
-        if (hero.getRole().equals($missingRole) && !pickedHeroes.contains(hero.getID()) && !recommendedHeroes.contains(hero)) {
+        if (hero.getRole().equals($missingRole) && !pickedHeroes.contains(hero.getLocalized_name()) && !recommendedHeroes.contains(hero)) {
+            hero.addScore(100);
             recommendedHeroes.add(hero);
             added = true;
         }
@@ -34,17 +39,8 @@ then
 
     System.out.println("Recommended picks: ");
     for (Hero hero : recommendedHeroes) {
-        System.out.println("Hero ID: " + hero.getID() + ",\nHero name: " + hero.getName() + ",\nHero role: " + hero.getRole() + "\nGood against:");
-        for (String s : hero.getGoodAgainst()) {
-            System.out.println("\t" + s);
-        }
-        System.out.println("Bad against:");
-        for (String s : hero.getBadAgainst()) {
-            System.out.println("\t" + s);
-        }
-        System.out.println("");
+        System.out.println("\t" + hero.getLocalized_name() + "(" + hero.getRole() + "), Score: " + hero.getScore());
     }
-
     if (added) {
         flag.setValue(true);
         System.out.println("These picks were recommended because your team does not have the role: " + $missingRole);
@@ -58,36 +54,27 @@ when
 then
     List<Hero> newList = new ArrayList<>();
     for (Hero hero : recommendedHeroes) {
-        if (counterPicks.contains(hero.getID())) {
+        if (counterPicks.contains(hero.getLocalized_name())) {
+        	hero.addScore(200);
             newList.add(hero);
         }
     }
     if (!newList.isEmpty()) {
-        System.out.println("\nBest picks list:");
+        System.out.println("\nBest picks list (COUNTERS):");
         for (Hero hero : newList) {
-        	System.out.println("Hero ID: " + hero.getID() + ",\nHero name: " + hero.getName() + ",\nHero role: " + hero.getRole() + "\nGood against:");
+        	System.out.println("\tHero name: " + hero.getLocalized_name());
     		for (String s : hero.getGoodAgainst()) {
-    			System.out.println("\t"+ s);
+    			for (Hero oppositeHero: oppositeTeam) {
+    				if (oppositeHero.getLocalized_name().equals(s)) {
+    					System.out.println("\tCounters: " + oppositeHero.getLocalized_name());
+    				}
+    			}
     		}
-    		System.out.println("Bad against:");
-    		for (String s : hero.getBadAgainst()) {
-    			System.out.println("\t" + s);
-    		}
+    	    System.out.println("\tScore: " + hero.getScore());
     		System.out.println("");
         }
+        ableToSort.setValue(true);
         System.out.println("These picks were recommended because you can counter enemy hero by picking one of these, which is much better than any other picks");
-    	System.out.println("\nOld picks list: ");
-	    for (Hero hero : recommendedHeroes) {
-	            System.out.println("Hero ID: " + hero.getID() + ",\nHero name: " + hero.getName() + ",\nHero role: " + hero.getRole() + "\nGood against:");
-	    		for (String s : hero.getGoodAgainst()) {
-	    			System.out.println("\t"+ s);
-	    		}
-	    		System.out.println("Bad against:");
-	    		for (String s : hero.getBadAgainst()) {
-	    			System.out.println("\t" + s);
-	    		}
-	    		System.out.println("");
-	    }
     }
 end;
 
@@ -97,45 +84,84 @@ when
 then
     List<Hero> newList = new ArrayList<>();
     for (Hero hero : recommendedHeroes) {
-        if (combos.contains(hero.getID())) {
+        if (combos.contains(hero.getLocalized_name())) {
+        	hero.addScore(100);
             newList.add(hero);
         }
     }
     if (!newList.isEmpty()) {
-        System.out.println("\nBest picks list:");
+        System.out.println("\nBest picks list (COMBOS):");
         for (Hero hero : newList) {
-            System.out.println("Hero ID: " + hero.getID() + ",\nHero name: " + hero.getName() + ",\nHero role: " + hero.getRole() + "\nGood against:");
-            for (String s : hero.getGoodAgainst()) {
-                System.out.println("\t" + s);
-            }
-            System.out.println("Bad against:");
-            for (String s : hero.getBadAgainst()) {
-                System.out.println("\t" + s);
-            }
-            System.out.println("Combo with:");
+            System.out.println("\tHero name: " + hero.getLocalized_name());
             for (String s : hero.getCombo()) {
-                System.out.println("\t" + s);
+            	for (Hero heroMyTeam : myTeam) {
+            		if (heroMyTeam.getLocalized_name().equals(s)) {
+    					System.out.println("\tCombo with: " + heroMyTeam.getLocalized_name());
+    				}
+            	}
             }
+            System.out.println("\tScore: " + hero.getScore());
             System.out.println("");
         }
+        ableToSort.setValue(true);
         System.out.println("These picks were recommended because you can create a combo by picking one of these, which is much better than any other picks");
-        System.out.println("\nOld picks list: ");
-        for (Hero hero : recommendedHeroes) {
-            System.out.println("Hero ID: " + hero.getID() + ",\nHero name: " + hero.getName() + ",\nHero role: " + hero.getRole() + "\nGood against:");
-            for (String s : hero.getGoodAgainst()) {
-                System.out.println("\t" + s);
-            }
-            System.out.println("Bad against:");
-            for (String s : hero.getBadAgainst()) {
-                System.out.println("\t" + s);
-            }
-            System.out.println("Combo with:");
-            for (String s : hero.getCombo()) {
-                System.out.println("\t" + s);
-            }
-            System.out.println("");
-        }
     }
+end;
+
+rule "Add meta points to score"
+when
+	eval(ableToSort.getValue())
+then
+	System.out.println("\nAdded meta points to heroes: ");
+	for (Hero hero : recommendedHeroes) {
+		hero.addScore(hero.getMeta());
+		hero.addScore(hero.getMeta());
+	}
+	Collections.sort(recommendedHeroes);
+	for (Hero hero : recommendedHeroes) {
+            System.out.println("\t" + hero.getLocalized_name() + " (" + hero.getScore() + ")");
+        }
+end;
+
+rule "Add player skills points to score"
+when
+	eval(ableToSort.getValue())
+then
+	System.out.println("\nAdded player skills points to heroes: ");
+	for (Hero hero : recommendedHeroes) {
+		hero.addScore(hero.getPlayer_skills());
+	}
+	Collections.sort(recommendedHeroes);
+	for (Hero hero : recommendedHeroes) {
+            System.out.println("\t" + hero.getLocalized_name() + " (" + hero.getScore() + ")");
+        }
+end;
+
+rule "Add 50 points if hero is in correct rank where played"
+when
+	eval(ableToSort.getValue())
+then
+	System.out.println("\nAdded 50 points if hero is played in correct rank where played: ");
+	for (Hero hero : recommendedHeroes) {
+		if (hero.getRank_play().equals(player_rank)) {
+			hero.addScore(50);
+		}
+	}
+	Collections.sort(recommendedHeroes);
+	for (Hero hero : recommendedHeroes) {
+            System.out.println("\t" + hero.getLocalized_name() + " (" + hero.getScore() + ")");
+        }
+end;
+
+rule "Final list"
+when 
+	eval(ableToSort.getValue())
+then
+	System.out.println("\nFinal list: ");
+	Collections.sort(recommendedHeroes);
+	for (Hero hero : recommendedHeroes) {
+            System.out.println("\t" + hero.getLocalized_name() + " (" + hero.getScore() + ")");
+        }
 end;
 
 	

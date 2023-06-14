@@ -1,0 +1,174 @@
+<div class="navbar">
+    <div class="navbar-items">
+        <p>LOW</p>
+        <mat-slide-toggle [(ngModel)]="slideToggleValue" (change)="onSlideToggleChange()"></mat-slide-toggle>
+        <p>HIGH</p>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="container col-md-12">
+	<form [formGroup]="formGroup">
+        <mat-horizontal-stepper #stepper >
+            <!-- <mat-step formGroupName="podnosilac" [stepControl]="zigForm.get('podnosilac')!"> -->
+            <mat-step style="display: flex; justify-content: center; gap: 10vh;" class="from-group">
+				<ng-template matStepLabel>Your team</ng-template>
+                <mat-form-field class="example-full-width" style="margin: 10px;">
+                    <mat-label>Hero 1</mat-label>
+                    <input type="text"
+                           placeholder="Pick one"
+                           aria-label="Number"
+                           matInput
+                           [formControl]="myControl"
+                           [matAutocomplete]="auto">
+                    <mat-autocomplete #auto="matAutocomplete" (optionSelected)="firstSelected($event)">
+                      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                        {{option}}
+                      </mat-option>
+                    </mat-autocomplete>
+                  </mat-form-field>
+                  <mat-form-field class="example-full-width" style="margin: 10px;">
+                    <mat-label>Hero 2</mat-label>
+                    <input type="text"
+                           placeholder="Pick one"
+                           aria-label="Number"
+                           matInput
+                           [formControl]="myControl"
+                           [matAutocomplete]="auto1">
+                    <mat-autocomplete #auto1="matAutocomplete" (optionSelected)="secondSelected($event)">
+                      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                        {{option}}
+                      </mat-option>
+                    </mat-autocomplete>
+                  </mat-form-field>
+                  <mat-form-field class="example-full-width" style="margin: 10px;">
+                    <mat-label>Hero 3</mat-label>
+                    <input type="text"
+                           placeholder="Pick one"
+                           aria-label="Number"
+                           matInput
+                           [formControl]="myControl"
+                           [matAutocomplete]="auto2">
+                    <mat-autocomplete #auto2="matAutocomplete" (optionSelected)="thirdSelected($event)">
+                      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                        {{option}}
+                      </mat-option>
+                    </mat-autocomplete>
+                  </mat-form-field>
+                  <mat-form-field class="example-full-width" style="margin: 10px;">
+                    <mat-label>Hero 4</mat-label>
+                    <input type="text"
+                           placeholder="Pick one"
+                           aria-label="Number"
+                           matInput
+                           [formControl]="myControl"
+                           [matAutocomplete]="auto3">
+                    <mat-autocomplete #auto3="matAutocomplete" (optionSelected)="fourthSelected($event)">
+                      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                        {{option}}
+                      </mat-option>
+                    </mat-autocomplete>
+                  </mat-form-field>
+                  <mat-form-field class="example-full-width" style="margin: 10px;">
+                    <mat-label>Hero 5</mat-label>
+                    <input type="text"
+                           placeholder="Pick one"
+                           aria-label="Number"
+                           matInput
+                           [formControl]="myControl"
+                           [matAutocomplete]="auto4">
+                    <mat-autocomplete #auto4="matAutocomplete" (optionSelected)="fifthSelected($event)">
+                      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                        {{option}}
+                      </mat-option>
+                    </mat-autocomplete>
+                  </mat-form-field>
+                  <button type="button"  class="btn btn-primary" style="width: 50%; margin-left: 25%;" matStepperNext (click)="myTeamButton()">Next</button>
+			</mat-step>
+
+
+
+            <!-- OPPOSITE TEAM -->
+
+
+
+
+            <mat-step >
+				<ng-template matStepLabel>Opposite team</ng-template>
+                <mat-form-field class="example-full-width" style="margin: 10px;">
+                    <mat-label>Hero 1</mat-label>
+                    <input type="text"
+                           placeholder="Pick one"
+                           aria-label="Number"
+                           matInput
+                           [formControl]="myControl"
+                           [matAutocomplete]="auto">
+                    <mat-autocomplete #auto="matAutocomplete" (optionSelected)="firstSelected($event)">
+                      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                        {{option}}
+                      </mat-option>
+                    </mat-autocomplete>
+                  </mat-form-field>
+                  <mat-form-field class="example-full-width" style="margin: 10px;">
+                    <mat-label>Hero 2</mat-label>
+                    <input type="text"
+                           placeholder="Pick one"
+                           aria-label="Number"
+                           matInput
+                           [formControl]="myControl"
+                           [matAutocomplete]="auto1">
+                    <mat-autocomplete #auto1="matAutocomplete" (optionSelected)="secondSelected($event)">
+                      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                        {{option}}
+                      </mat-option>
+                    </mat-autocomplete>
+                  </mat-form-field>
+                  <mat-form-field class="example-full-width" style="margin: 10px;">
+                    <mat-label>Hero 3</mat-label>
+                    <input type="text"
+                           placeholder="Pick one"
+                           aria-label="Number"
+                           matInput
+                           [formControl]="myControl"
+                           [matAutocomplete]="auto2">
+                    <mat-autocomplete #auto2="matAutocomplete" (optionSelected)="thirdSelected($event)">
+                      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                        {{option}}
+                      </mat-option>
+                    </mat-autocomplete>
+                  </mat-form-field>
+                  <mat-form-field class="example-full-width" style="margin: 10px;">
+                    <mat-label>Hero 4</mat-label>
+                    <input type="text"
+                           placeholder="Pick one"
+                           aria-label="Number"
+                           matInput
+                           [formControl]="myControl"
+                           [matAutocomplete]="auto3">
+                    <mat-autocomplete #auto3="matAutocomplete" (optionSelected)="fourthSelected($event)">
+                      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                        {{option}}
+                      </mat-option>
+                    </mat-autocomplete>
+                  </mat-form-field>
+                  <mat-form-field class="example-full-width" style="margin: 10px;">
+                    <mat-label>Hero 5</mat-label>
+                    <input type="text"
+                           placeholder="Pick one"
+                           aria-label="Number"
+                           matInput
+                           [formControl]="myControl"
+                           [matAutocomplete]="auto4">
+                    <mat-autocomplete #auto4="matAutocomplete" (optionSelected)="fifthSelected($event)">
+                      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                        {{option}}
+                      </mat-option>
+                    </mat-autocomplete>
+                  </mat-form-field>
+                  <button type="button"  class="btn btn-primary" style="width: 50%; margin-left: 25%;" matStepperNext (click)="oppositeButton()">Finish</button>
+			</mat-step>
+        </mat-horizontal-stepper>
+    </form>
+</div>
