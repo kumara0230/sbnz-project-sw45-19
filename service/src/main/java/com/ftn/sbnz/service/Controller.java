@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.kie.api.KieServices;
+import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -19,8 +21,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api")
 public class Controller {
-	@Autowired
-	private KieSession session;
+//	@Autowired
+//	private KieSession session;
 	private List<Hero> recommendedHeroes;
 	private List<Hero> myTeamResponse;
 	private List<Hero> oppositeTeamResponse;
@@ -42,6 +44,10 @@ public class Controller {
 	@PostMapping(value = "/sendRequest")
 	@CrossOrigin(origins = "http://localhost:4200")
     public void sendRequest(@RequestBody RequestPayload requestPayload) {
+		
+		KieServices ks = KieServices.Factory.get();
+		KieContainer kc = ks.newKieClasspathContainer();
+		KieSession session = kc.newKieSession("session");
 
         String rank = requestPayload.getRank();
         session.setGlobal("player_rank", rank);

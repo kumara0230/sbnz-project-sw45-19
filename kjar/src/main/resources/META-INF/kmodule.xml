@@ -1,10 +1,17 @@
-<kmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://jboss.org/kie/6.0.0/kmodule">
- <kbase name="cepKbase" eventProcessingMode="stream" packages="cep">
-        <ksession name="cepKsession"/>
-    </kbase>
-    
-    <kbase name="cepConfigKbase" eventProcessingMode="stream" packages="cep2">
-        <ksession name="cepConfigKsessionPseudoClock" clockType="pseudo"/>
-        <ksession name="cepConfigKsessionRealtimeClock" clockType="realtime"/>
-    </kbase>
+<kmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://jboss.org/kie/6.0.0/kmodule">
+
+  <!-- <kbase name="template-simple-KBase" packages="template-dtable">
+    <ksession name="templateSimpleKsession" />
+  </kbase> -->
+
+  <kbase name="base" packages="rules">
+
+   <!-- <ruleTemplate dtable="rules/template1-data.xls"
+                  template="rules/first_set.drt"
+                  row="3" col="2"/>-->
+
+    <ksession name="session" />
+  </kbase>
+
 </kmodule>

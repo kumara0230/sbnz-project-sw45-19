@@ -33,7 +33,7 @@ public class DroolConfig {
 
 	}
 
-	@Bean
+//	@Bean
 	public KieContainer getKieContainer() throws IOException {
 		System.out.println("Container created...");
 		getKieRepository();
@@ -54,10 +54,13 @@ public class DroolConfig {
 		});
 	}
 
-	@Bean
+//	@Bean
 	public KieSession getKieSession() throws IOException {
 		System.out.println("session created...");
-		KieSession kieSession = getKieContainer().newKieSession();
+//		KieSession kieSession = getKieContainer().newKieSession();
+		KieServices ks = KieServices.Factory.get();
+		KieContainer kc = ks.newKieClasspathContainer();
+		KieSession kieSession = kc.newKieSession("session");
 		
 		List<Hero> allHeroes = HeroFactory.getAllHeroes();
         kieSession.setGlobal("allHeroes", allHeroes);
